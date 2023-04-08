@@ -198,12 +198,12 @@
         $query22 = mysqli_query($conn,"SELECT * FROM data_movie ORDER BY id DESC LIMIT 3");
         while($result = mysqli_fetch_array($query22)){
     ?>   
-      <div class="slide slick-bg s-bg-1" style="background-image: url(<?=$result['img']?>);">
+      <!-- <div class="slide slick-bg s-bg-1" style="background-image: url(<?=$result['img']?>);">
         <div class="container-fluid position-relative h-100">
           <div class="slider-inner h-100">
             <div class="row align-items-center h--100"> 
               <div class="col-xl-6 col-lg-12 col-md-12">
-                <a href="javascript:void(0)">
+                <a href="javascript:void(0)"> -->
                   <div class="channel-logo" data-animation-in="fadeInLeft" data-delay-in="0.5">
                     <img src="images/metflix logo1.png" class="c-logo" alt="" />
                   </div>
