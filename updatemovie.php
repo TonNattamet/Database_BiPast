@@ -88,7 +88,7 @@
                       <option value="<?=$rowtype['id_type'];?>"
                         <?php echo in_array($rowtype['id_type'],$udt_array) ? 'selected':''?>
                       >
-                        <?=$rowtype['name_type'];?>
+                        <?=$rowtype['type_name'];?>
                       </option>
                       <?php
                   }
